@@ -1,0 +1,72 @@
+body{
+    background: url(pper2.jpg) ;
+    height: 2000px;
+    width: 1020px
+    
+}
+.des{
+border-style: ridge;
+border-color: rgb(0, 0, 0);
+width: 1380px;
+margin-left: 60px;
+}
+h3{
+    font-family: ;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.btn{
+    width:8%;
+   background-color:  #3a3939;
+    border: 2px solid #3a3939;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    border-radius: 40px 40px;
+  }
+  .login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    color: white;
+  }
+  .login-box h1{
+   margin-left: 75px;
+    font-size: 40px;
+    border-bottom: 4px solid #3a3939;
+    margin-bottom: 10px;
+    border-left-width: 28px;
+    padding: 13px 0;
+    float: left;
+  }
+  .txt{
+    color: aliceblue;
+  }
+  .textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #3a3939;
+  }
+  .textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }

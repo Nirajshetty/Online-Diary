@@ -1,0 +1,22 @@
+body{
+    background: url(diary1.jpg) no-repeat;
+    max-height: 100%;
+    ;
+    
+}
+.top{
+    width: 1324px;
+    height: 100px;
+    background-color: white;
+}
+.texttop{
+    margin-left: initial;
+}
+.view{
+margin-left: 200px;
+
+}
+.but{
+    margin-left: 500px;
+    color: lightcoral;
+}
