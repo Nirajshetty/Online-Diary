@@ -8,7 +8,7 @@ include("connect.php");
 <head>
     <meta charset="utf-8">
     <title>login</title>
-    <link rel="stylesheet" href="ss.css">
+    <link rel="stylesheet" href="css/ss.css">
 </head>
 
 <body>

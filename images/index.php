@@ -57,23 +57,17 @@ else
     </div>
    
     
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <header class="site-navbar py-4  site-navbar-target" role="banner">
       
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.html" style=" text-align:initial; font-size: 40px;">Online Diary</a></div>
+          <div class=" xx site-logo mr-auto w-25" style="font-size:50px; margin-left:0px; color:white; font-family:Muli;">Online Diary</div>
 
-          <div class="ml-auto w-25">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-              <li class="cta"><a href="view.php" class="nav-link" style="margin-left: 100px; margin-top: 30px"><span>View Your Diary</span></a></li>
-                <li class="cta"><a href="logout.php" class="nav-link" style="margin-left: 100px; margin-top:20px;"><span>Logout</span></a></li>
-                
-
-              </ul>
-            </nav>
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
-          </div>
+          <form action="logout.php" method="POST" enctype="multipart/form-data">
+        <div class="login-box">
+            <input type="submit" style="border: 1px solid #3a3939;  border-radius: 40px 40px; " name="logout" class="btn" value="Logout">
+        </div>
+    </form>
         </div>
       </div>
       
@@ -90,18 +84,28 @@ else
                   <?php
                    echo '<img src="data:image;base64,'.base64_encode($img).'" alt="image" style="width:200px; height:250px;">';
                   ?>
+                  <br>
+                  <br>
                   
                   <h2  data-aos="fade-up" data-aos-delay="100"> <?php echo "Welcome  ".$nam." !"; ?></h2>
-                  <h1  data-aos="fade-up" data-aos-delay="100">Now write your Personal Diary online!!</h1>
-                  <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">Write and Access your diary anywhere and anytime.</p>
-                  
-
+                  <h1 >Write and Access your diary anywhere and anytime.</h1>
+                  <p style="margin-top:5px;">Now write your Personal Diary online!!</p>
+                  <br><br>
+                  <form action="view.php" method="POST" enctype="multipart/form-data">
+       
+    </form>
+    <form action="view.php" method="POST" enctype="multipart/form-data">
+    <div>
+            <input type="submit" name="view" style="border: 1px solid #3a3939;  border-radius: 40px 40px; margin-top:-80px;" class="btn" value="View Your Diary">
+        </div>
+</form>
                 </div>
-                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500" style="margin-left:45px;">
+                
+                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500" style="margin-left: 10px;">
                 <br>
                 <br>
                 
-                  <form action="" method="post" class="form-box" style=" margin-top: 100px;" enctype="multipart/form-data">
+                  <form action="" method="post" class="form-box" style="margin-left:initial; margin-top: 85px;" enctype="multipart/form-data">
                     <h3 class="h4 text-black mb-4">Update Diary</h3>
                     <p style="color: black;" >Today's date</p>
                     <div class="form-group">

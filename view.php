@@ -20,7 +20,7 @@ else{
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="v.css">
+    <link rel="stylesheet" href="css/v.css">
     <div class="site-logo mr-auto w-25" style=" text-align:center; margin-left:504px; color:black; font-size: 40px;"><strong>My Personal Diary</strong></div><br><br>
   </head>
   <body>

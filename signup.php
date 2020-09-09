@@ -45,7 +45,7 @@ if (mysqli_query($success, $sql)) {
   <head>
     <meta charset="utf-8">
     <title>Register</title>
-    <link rel="stylesheet" href="ss.css">
+    <link rel="stylesheet" href="css/ss.css">
   </head>
   <body>
       <form action="" method="POST" enctype="multipart/form-data">
